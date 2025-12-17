@@ -1,0 +1,180 @@
+6/10/2025:
+  - Các công việc:
+      - Công cụ:
+          - Google Drive
+          - Colab
+          - Github
+        Nội dung:
+          - Thu thập dữ liệu điểm thi theo chương trình mới (2018)
+          - Thử EDA trên dữ liệu đó
+          - Đưa ra một vài nhận xét dựa trên phân tích EDA
+
+6/10 - 21/10/2025:
+  - Các công việc:
+      - Công cụ:
+          - Google Cloud
+          - Colab
+          - Jupyter Notebook
+        Nội dung:
+          - Build logic xử lí dữ liệu điểm thi THPT quốc gia
+          - Ôn tập sử dụng các thư viện polars và plotly
+
+21/10/2025:
+  - Các công việc:
+      - Thu thập dữ liệu:
+          - Công cụ:
+              - Google Cloud
+              - Colab
+              - Github
+            Nội dung:
+              - Thu thập dữ liệu điểm thi theo chương trình cũ (2006)
+              - Xây dựng logic xử lí dữ liệu điểm thi theo chương trình cũ
+              - Thu thập dữ liệu địa lí trước và sau sáp nhập
+
+21-25/10/2025:
+  - Các công việc:
+      - Công cụ:
+          - Google Cloud
+          - Colab
+        Trang tham khảo:
+          - https://laodong.vn/giao-duc/danh-sach-65-hoi-dong-thi-tot-nghiep-thpt-thi-sinh-tranh-nham-de-truot-oan-896441.ldo
+          - https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-sap-nhap-34-tinh-thanh-moi-nhat-2025-ten-goi-trung-tam-hanh-chinh-dien-tich-va-dan-so-ra--475580-214308.html
+        Nội dung:
+          - Tiền xử lí các file chương trình thi "*.xlsx":
+              - Bảng điểm năm 2006:
+                  - Với xử lí các môn ngoại ngữ:
+                      - Trích xuất 3 cột "SOBAODANH", "Ngoại ngữ" và "Mã môn ngoại ngữ" thành một bảng riêng
+                      - Loại bỏ những thí sinh không có điểm môn ngoại ngữ
+                      - Biến đổi những mã môn ngoại ngữ thành các môn ngoại ngữ tương ứng
+                      - Ép bảng riêng trên thành định dạng long
+                      - Nối bảng vừa tạo với bảng điểm với trường chung là "SOBAODANH"
+                  - Với trích xuất tổ hợp và điểm theo tổ hợp tương ứng:
+                      - Trích xuất các cột bài thi mà thí sinh có điểm
+                      - Lập danh sách các tổ hợp khả thi
+                      - Loại bỏ các thí sinh không có tổ hợp nào
+                      - Tách các giá trị tổ hợp thành các dòng riêng biệt
+                      - Nối bảng này với bảng tổ hợp với trường chung là "Tổ hợp"
+                      - Trích xuất các thông tin:
+                          - Khối: Là kí tự đầu của các tổ hợp
+                          - Điểm thi: Tính điểm dựa vào các cột tổ hợp và bảng ban đầu
+              - Bảng điểm năm 2018:
+                  - Chồng 2 sheets 
+                  - Xử lý tương tự bảng điểm năm 2006
+          - Tạo bảng so sánh, đối chiếu giữa trước và sau sáp nhập
+          - Tạo bảng liệt kê các tổ hợp môn
+          - Liên kết 2 bảng với các file điểm thi đó và tạo thành 2 file parquet
+
+26/10/2025:
+  - Các công việc:
+      - Công cụ:
+          - Google Colab
+          - Google Drive
+        Nội dung:
+          - Tối ưu hóa quy trình xử lí các file ".xlsx"
+          - Kiểm tra lại bảng so sánh, đối chiếu địa điểm thi của thí sinh với 2 file *.geojson
+          - Hợp nhất 2 file parquet đó thành 1 bảng hoàn chỉnh, áp dụng được cho cả chương trình mới và chương trình cũ
+          - Download file parquet vừa tạo đó
+      - Công cụ:
+          - VS Code
+        Nội dung:
+          - Thêm các file dữ liệu vào thư mục /data:
+              - geo/Việt Nam (tỉnh thành) - 34.geojson
+              - geo/Việt Nam (tỉnh thành) - 63.geojson
+              - score/bang_diem_full.parquet
+
+2025-10-27:
+  - Các công việc:
+      - Công cụ:
+          - VS Code
+        Nội dung:
+          - Thêm các file dữ liệu vào thư mục /data:
+              - score/Bảng tổ hợp môn.csv
+          - Sắp xếp lại file "score/Bảng tổ hợp môn.csv" theo thứ tự tổ hợp
+
+2025-10-29:
+  - Các công việc:
+      - Công cụ:
+          - Jupyter Notebook
+        Nội dung:
+          - Biến đổi file dữ liệu địa lý thành file parquet (tiện cho việc đọc và truy xuất)
+          - Thiết kế giao diện ban đầu cho trang chủ
+
+2025-11-1:
+  - Các công việc:
+      - Công cụ:
+          - Google Colab
+        Nội dung:
+          - Thêm điều kiện lọc điểm thi hợp lệ
+      - Công cụ:
+          - VS Code
+        Nội dung:
+          - Hoàn chỉnh tính năng lọc theo tỉnh thành
+
+2025-11-5:
+  - Các công việc:
+      - Công cụ:
+          - VS Code
+        Nội dung:
+          - Hoàn thành tính năng còn lại
+          - Kiểm tra dữ liệu
+
+2025-11-14:
+  - Các công việc:
+      - Công cụ:
+          - VS Code
+        Nội dung:
+          - Hoàn thành tính năng còn lại
+
+2025-11-15:
+  - Các công việc:
+      - Công cụ:
+          - Google
+          - Google Colab
+        Nội dung:
+          - Tìm kiếm trang của chính phủ về dữ liệu thi hoàn chỉnh (https://xaydungchinhsach.chinhphu.vn/thoi-gian-cong-bo-diem-thi-tot-nghiep-nam-2025-119250326142147171.htm)
+          - Thực hiện lại quy trình tiền xử lý dữ liệu đã tải về từ trang trên
+      - Công cụ:
+          - Jupyter Notebook
+        Nội dung:
+          - Thử trích xuất các bài thi của toàn bộ thí sinh
+      - Công cụ:
+          - VS Code
+        Nội dung:
+          - Hoàn chỉnh tính năng còn lại
+      - Công cụ:
+          - Google Sheets
+        Nội dung:
+          - Xác định tên đề tài: 'Ứng dụng Big Data xây dựng trang Dashboard trực quan hóa dữ liệu kỳ thi THPT quốc gia năm 2025'
+          - Đăng kí nhóm
+
+
+2025-11-19:
+  - Các công việc:
+      - Công cụ: 
+        - Trực tiếp
+        Nội dung:
+        - “Hỏi ý kiến thầy về đề tài → Thầy nói dữ liệu chưa đủ lớn để gọi Big Data, nhưng cho phép tự quyết.”
+
+
+
+2025-12-02:
+  - Các công việc:
+    - Công cụ: 
+      - VSCode
+    Nội dung: 
+      - Hoàn chỉnh tính năng API (dành cho nhóm tổ hợp) để người dùng truy vấn)
+
+
+
+2025-12-06:
+  - Các công việc:
+    - Công cụ: VSCode
+      Nội dung: Commit code lên Github
+
+
+2025-12-17:
+  - Các công việc:
+    - Công cụ: VS Code
+      Nội dung: Hoàn chỉnh README
+    - Công cụ: Dash Cloud 
+      Nội dung: Deploy để tạo thành Dash App thực thụ
