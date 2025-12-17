@@ -1,0 +1,157 @@
+,Unnamed: 0,Môn 1,Môn 2,Môn 3,Tổ hợp
+0,1,Toán,Lí,Hóa,A00
+1,2,Toán,Lí,Anh,A01
+2,9,Toán,Lí,Sinh,A02
+3,55,Toán,Lí,Sử,A03
+4,42,Toán,Lí,Địa,A04
+5,47,Toán,Hóa,Sử,A05
+6,48,Toán,Hóa,Địa,A06
+7,36,Toán,Sử,Địa,A07
+8,39,Toán,Địa,Hàn,AH1
+9,117,Toán,Hóa,Hàn,AH2
+10,115,Toán,Lí,Hàn,AH3
+11,155,Toán,Sinh,Hàn,AH4
+12,4,Toán,Hóa,Sinh,B00
+13,74,Toán,Sử,Sinh,B01
+14,50,Toán,Sinh,Địa,B02
+15,38,Toán,Sinh,Văn,B03
+16,14,Toán,Sinh,Anh,B08
+17,5,Văn,Sử,Địa,C00
+18,6,Văn,Toán,Lí,C01
+19,24,Văn,Toán,Hóa,C02
+20,37,Văn,Toán,Sử,C03
+21,10,Văn,Toán,Địa,C04
+22,52,Văn,Lí,Hóa,C05
+23,75,Văn,Lí,Hóa,C06
+24,76,Văn,Sử,Lí,C07
+25,40,Văn,Hóa,Sinh,C08
+26,78,Văn,Địa,Lí,C09
+27,80,Văn,Sử,Hóa,C10
+28,81,Văn,Địa,Hóa,C11
+29,82,Văn,Sử,Sinh,C12
+30,59,Văn,Sinh,Địa,C13
+31,0,Toán,Văn,Anh,D01
+32,21,Văn,Toán,Nga,D02
+33,11,Văn,Toán,Pháp,D03
+34,12,Văn,Toán,Trung,D04
+35,23,Văn,Toán,Đức,D05
+36,15,Văn,Toán,Nhật,D06
+37,3,Toán,Hóa,Anh,D07
+38,16,Toán,Sinh,Anh,D08
+39,18,Toán,Sử,Anh,D09
+40,13,Toán,Địa,Anh,D10
+41,44,Văn,Lí,Anh,D11
+42,53,Văn,Hóa,Anh,D12
+43,46,Văn,Sinh,Anh,D13
+44,7,Văn,Sử,Anh,D14
+45,8,Văn,Địa,Anh,D15
+46,65,Toán,Địa,Đức,D16
+47,101,Toán,Địa,Nhật,D18
+48,107,Toán,Địa,Pháp,D19
+49,60,Toán,Địa,Trung,D20
+50,33,Toán,Hóa,Đức,D21
+51,34,Toán,Hóa,Nga,D22
+52,30,Toán,Hóa,Nhật,D23
+53,29,Toán,Hóa,Pháp,D24
+54,35,Toán,Hóa,Trung,D25
+55,28,Toán,Lí,Đức,D26
+56,31,Toán,Lí,Nga,D27
+57,25,Toán,Lí,Nhật,D28
+58,26,Toán,Lí,Pháp,D29
+59,32,Toán,Lí,Trung,D30
+60,66,Toán,Sinh,Đức,D31
+61,61,Toán,Sinh,Nga,D32
+62,62,Toán,Sinh,Nhật,D33
+63,63,Toán,Sinh,Pháp,D34
+64,67,Toán,Sinh,Trung,D35
+65,118,Toán,Sử,Đức,D36
+66,119,Toán,Sử,Nhật,D38
+67,102,Toán,Sử,Pháp,D39
+68,120,Toán,Sử,Trung,D40
+69,108,Văn,Địa,Đức,D41
+70,64,Văn,Địa,Nga,D42
+71,68,Văn,Địa,Nhật,D43
+72,56,Văn,Địa,Pháp,D44
+73,54,Văn,Địa,Trung,D45
+74,109,Văn,Hóa,Trung,D50
+75,69,Văn,Địa,Trung,D55
+76,84,Văn,Sử,Đức,D61
+77,85,Văn,Sử,Nga,D62
+78,57,Văn,Sử,Nhật,D63
+79,58,Văn,Sử,Pháp,D64
+80,70,Văn,Sử,Trung,D65
+81,71,Văn,Giáo dục kinh tế và pháp luật,Nga,D68
+82,72,Văn,Giáo dục kinh tế và pháp luật,Pháp,D70
+83,73,Văn,Giáo dục kinh tế và pháp luật,Trung,D71
+84,123,Toán,Giáo dục kinh tế và pháp luật,Trung,D89
+85,116,Văn,Toán,Hàn,DD2
+86,151,Văn,Địa,Hàn,DH1
+87,153,Văn,Sử,Hàn,DH5
+88,20,Văn,Toán,Giáo dục kinh tế và pháp luật,X01
+89,90,Toán,Văn,Tin,X02
+90,110,Toán,Văn,Công nghệ công nghiệp,X03
+91,112,Toán,Văn,Công nghệ nông nghiệp,X04
+92,43,Toán,Lí,Giáo dục kinh tế và pháp luật,X05
+93,91,Toán,Lí,Tin,X06
+94,93,Toán,Lí,Công nghệ công nghiệp,X07
+95,92,Toán,Lí,Công nghệ nông nghiệp,X08
+96,51,Toán,Hóa,Giáo dục kinh tế và pháp luật,X09
+97,103,Toán,Hóa,Tin,X10
+98,94,Toán,Hóa,Công nghệ công nghiệp,X11
+99,97,Toán,Hóa,Công nghệ nông nghiệp,X12
+100,99,Toán,Sinh,Tin,X14
+101,98,Toán,Sinh,Công nghệ công nghiệp,X15
+102,100,Toán,Sinh,Công nghệ nông nghiệp,X16
+103,49,Toán,Sử,Giáo dục kinh tế và pháp luật,X17
+104,132,Toán,Sử,Tin,X18
+105,130,Toán,Sử,Công nghệ công nghiệp,X19
+106,131,Toán,Sử,Công nghệ nông nghiệp,X20
+107,27,Toán,Địa,Giáo dục kinh tế và pháp luật,X21
+108,106,Toán,Địa,Tin,X22
+109,77,Toán,Địa,Công nghệ công nghiệp,X23
+110,79,Toán,Địa,Công nghệ nông nghiệp,X24
+111,41,Toán,Anh,Giáo dục kinh tế và pháp luật,X25
+112,45,Toán,Anh,Tin,X26
+113,96,Toán,Anh,Công nghệ công nghiệp,X27
+114,95,Toán,Anh,Công nghệ nông nghiệp,X28
+115,88,Toán,Giáo dục kinh tế và pháp luật,Nga,X29
+116,122,Toán,Giáo dục kinh tế và pháp luật,Pháp,X33
+117,121,Văn,Giáo dục kinh tế và pháp luật,Pháp,X45
+118,105,Toán,Nhật,Tin,X46
+119,114,Toán,Giáo dục kinh tế và pháp luật,Tin,X53
+120,125,Toán,Giáo dục kinh tế và pháp luật,Công nghệ công nghiệp,X54
+121,127,Toán,Giáo dục kinh tế và pháp luật,Công nghệ nông nghiệp,X55
+122,128,Toán,Tin,Công nghệ công nghiệp,X56
+123,129,Toán,Tin,Công nghệ nông nghiệp,X57
+124,83,Văn,Lí,Giáo dục kinh tế và pháp luật,X58
+125,154,Văn,Lí,Hàn,X59
+126,150,Văn,Lí,Công nghệ nông nghiệp,X60
+127,152,Văn,Lí,Công nghệ nông nghiệp,X61
+128,89,Văn,Hóa,Giáo dục kinh tế và pháp luật,X62
+129,140,Văn,Hóa,Tin,X63
+130,139,Văn,Hóa,Công nghệ công nghiệp,X64
+131,138,Văn,Hóa,Công nghệ nông nghiệp,X65
+132,126,Văn,Sinh,Giáo dục kinh tế và pháp luật,X66
+133,145,Văn,Sinh,Tin,X67
+134,143,Văn,Sinh,Công nghệ công nghiệp,X68
+135,144,Văn,Sinh,Công nghệ nông nghiệp,X69
+136,19,Văn,Sử,Giáo dục kinh tế và pháp luật,X70
+137,113,Văn,Sử,Tin,X71
+138,141,Văn,Sử,Công nghệ công nghiệp,X72
+139,142,Văn,Sử,Công nghệ nông nghiệp,X73
+140,17,Văn,Địa,Giáo dục kinh tế và pháp luật,X74
+141,104,Văn,Địa,Tin,X75
+142,133,Văn,Địa,Công nghệ công nghiệp,X76
+143,135,Văn,Địa,Công nghệ nông nghiệp,X77
+144,22,Văn,Anh,Giáo dục kinh tế và pháp luật,X78
+145,111,Văn,Anh,Tin,X79
+146,146,Văn,Anh,Công nghệ công nghiệp,X80
+147,147,Văn,Anh,Công nghệ nông nghiệp,X81
+148,124,Văn,Giáo dục kinh tế và pháp luật,Trung,X90
+149,86,Văn,Giáo dục kinh tế và pháp luật,Đức,X94
+150,87,Văn,Giáo dục kinh tế và pháp luật,Nhật,X98
+151,137,Văn,Giáo dục kinh tế và pháp luật,Tin,Y07
+152,134,Văn,Giáo dục kinh tế và pháp luật,Công nghệ công nghiệp,Y08
+153,136,Văn,Giáo dục kinh tế và pháp luật,Công nghệ nông nghiệp,Y09
+154,148,Văn,Tin,Công nghệ công nghiệp,Y10
+155,149,Văn,Tin,Công nghệ nông nghiệp,Y11

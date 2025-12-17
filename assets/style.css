@@ -1,0 +1,19 @@
+.avatar {
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
