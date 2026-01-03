@@ -52,7 +52,7 @@ Dashboard trực quan, dễ tương tác, giúp quan sát dữ liệu nhanh chó
     - B3: Chạy chương trình: `pip install -r requirements.txt`
     - B4: Mở trang `127.0.0.1:65000` để xem kết quả
 
-- Cách 2: Truy cập phiên bản public trên Dash Cloud `https://db5359fd-112f-4692-8773-628e752d7392.plotly.app/`
+- Cách 2: Truy cập phiên bản public trên Dash Cloud [My Dashboard](https://db5359fd-112f-4692-8773-628e752d7392.plotly.app/)
 
 ---
 
